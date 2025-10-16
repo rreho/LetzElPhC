@@ -1,0 +1,26 @@
+var numerical__func_8c =
+[
+    [ "aXpY", "de/d2d/numerical__func_8c.html#a60c1b1d2e12fd56ba7739592eb88a341", null ],
+    [ "Cmplxdot", "de/d2d/numerical__func_8c.html#ad60fe68e6ea8dcbb3b8ff0315519ea6b", null ],
+    [ "cos_angle_bw_Vec", "de/d2d/numerical__func_8c.html#af5f76d68f6f2812a2019509b20296a3d", null ],
+    [ "det3x3", "de/d2d/numerical__func_8c.html#af7b464a965e184f893290a977a66c9d1", null ],
+    [ "factorial", "de/d2d/numerical__func_8c.html#ae779062669bf246a73b2c00639b8b9fd", null ],
+    [ "find_kidx_in_list", "de/d2d/numerical__func_8c.html#a95da0d07e74aa4a00285324f1464224b", null ],
+    [ "find_maxfloat", "de/d2d/numerical__func_8c.html#abb53de7790915c6d871d22c8320c2e13", null ],
+    [ "find_maxint", "de/d2d/numerical__func_8c.html#a1fcce22fd778f8c940e46c827a5ee036", null ],
+    [ "Gemm3x3f", "de/d2d/numerical__func_8c.html#af511a32007a9865999d8bcf06cfff1dc", null ],
+    [ "get_fft_idx", "de/d2d/numerical__func_8c.html#ace8a95227cd6bfd332bfe3536bc6181c", null ],
+    [ "get_KplusQ_idxs", "de/d2d/numerical__func_8c.html#addc0a8eaf0d13f25db2567d2bb688bc3", null ],
+    [ "get_miller_idx", "de/d2d/numerical__func_8c.html#a33dc7889eeb05a7ee40327581d51a3d7", null ],
+    [ "legendre", "de/d2d/numerical__func_8c.html#a05eb7f6851ab17f3a79e91a1bb0cf16d", null ],
+    [ "matmul_Cmpl2x2", "de/d2d/numerical__func_8c.html#a5cb6a4677901df82939f3bb08fe1e5de", null ],
+    [ "MatVec3f", "de/d2d/numerical__func_8c.html#adeeb2c0049b8e3663d2d2cc9f7a1cd23", null ],
+    [ "normalize_Cmplx_vec", "de/d2d/numerical__func_8c.html#a93b13c7377e24fdf38baccf81ed84a9c", null ],
+    [ "reciprocal_vecs", "de/d2d/numerical__func_8c.html#aae57dcc2036d6002edd49bf275fd11b6", null ],
+    [ "simpson", "de/d2d/numerical__func_8c.html#acfc7eb8519ce75ef3c61facd19cfa0af", null ],
+    [ "swap_floats", "de/d2d/numerical__func_8c.html#a77b5d05d4a9776a6d89072688e94b9bb", null ],
+    [ "swap_ints", "de/d2d/numerical__func_8c.html#a9e8b4d4d6ae61479a604d43d291d7c1e", null ],
+    [ "transpose3x3f", "de/d2d/numerical__func_8c.html#aac168ae627644537e471f5a7921f781d", null ],
+    [ "transpose3x3f_inplace", "de/d2d/numerical__func_8c.html#a60406983e8735830d8fd007c4dde3644", null ],
+    [ "Ylm", "de/d2d/numerical__func_8c.html#abbd3b491506c533dac0178600c56212e", null ]
+];

@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['elph_5fe2_0',['ELPH_e2',['../d2/d6f/constants_8h.html#a812a3121634f7a70bc99ffd8ae125fc1',1,'constants.h']]],
+  ['elph_5feps_1',['ELPH_EPS',['../d2/d6f/constants_8h.html#a28dd2ec013c4413706976fd763cde5f2',1,'constants.h']]],
+  ['elph_5ffftw_5fsimd_5flen_2',['ELPH_FFTW_SIMD_LEN',['../d7/d8e/align_8c.html#abf6d14af665c8af595b28044d42fae77',1,'align.c']]],
+  ['elph_5fmax_5fenv_5fsize_3',['ELPH_MAX_ENV_SIZE',['../d3/d53/preprocessor_8h.html#a688d997e2912141b104705779a4dff97',1,'preprocessor.h']]],
+  ['elph_5fmpi_5fnd_5fint_4',['ELPH_MPI_ND_INT',['../d4/d0a/elph_c_8h.html#a7aadbfb91a77355439e2439935523151',1,'elphC.h']]],
+  ['elph_5fomp_5fatomic_5',['ELPH_OMP_ATOMIC',['../d2/d8d/omp__pragma__def_8h.html#ae1e906e8aa22c3f81bd7359b6969a81c',1,'omp_pragma_def.h']]],
+  ['elph_5fomp_5ffor_6',['ELPH_OMP_FOR',['../d2/d8d/omp__pragma__def_8h.html#a0a5e6d7c01b79b19188050ee6fc07750',1,'omp_pragma_def.h']]],
+  ['elph_5fomp_5fpar_7',['ELPH_OMP_PAR',['../d2/d8d/omp__pragma__def_8h.html#a33b53c3566014bdb937d1a537e92840e',1,'omp_pragma_def.h']]],
+  ['elph_5fomp_5fpar_5fcollapse_5f2_8',['ELPH_OMP_PAR_COLLAPSE_2',['../d2/d8d/omp__pragma__def_8h.html#a9499cf04840835410f3714b47cd38179',1,'omp_pragma_def.h']]],
+  ['elph_5fomp_5fpar_5fcollapse_5f3_9',['ELPH_OMP_PAR_COLLAPSE_3',['../d2/d8d/omp__pragma__def_8h.html#a0263e3a38071435552ee5885a560bad4',1,'omp_pragma_def.h']]],
+  ['elph_5fomp_5fpar_5fcritical_10',['ELPH_OMP_PAR_CRITICAL',['../d2/d8d/omp__pragma__def_8h.html#aadaf04fedc1307cccccc298f9159acb5',1,'omp_pragma_def.h']]],
+  ['elph_5fomp_5fpar_5ffor_11',['ELPH_OMP_PAR_FOR',['../d2/d8d/omp__pragma__def_8h.html#a4d38730a18cd53ef70931c298fde4235',1,'omp_pragma_def.h']]],
+  ['elph_5fomp_5fpar_5ffor_5fsimd_12',['ELPH_OMP_PAR_FOR_SIMD',['../d2/d8d/omp__pragma__def_8h.html#a8159d61919ccae417c3c3cdb91100751',1,'omp_pragma_def.h']]],
+  ['elph_5fomp_5fpar_5fsimd_13',['ELPH_OMP_PAR_SIMD',['../d2/d8d/omp__pragma__def_8h.html#a68b2d7ce156b4cf9f30d95cb79063537',1,'omp_pragma_def.h']]],
+  ['elph_5fomp_5fsingle_14',['ELPH_OMP_SINGLE',['../d2/d8d/omp__pragma__def_8h.html#a3c59e5f5369eb04e00b7660cdf5592b2',1,'omp_pragma_def.h']]],
+  ['elph_5fpi_15',['ELPH_PI',['../d2/d6f/constants_8h.html#a1625d757a5923bba205767ae9b149dad',1,'constants.h']]],
+  ['elph_5fsqrt2_16',['ELPH_SQRT2',['../d2/d6f/constants_8h.html#acadca1a9b8696c2b3e6b331febce1e80',1,'constants.h']]],
+  ['emsg_17',['EMSG',['../d3/d2f/_e_l_p_h__getopt__long_8c.html#ac393ec775622430dfe25cd2ac9dec9f4',1,'ELPH_getopt_long.c']]],
+  ['err_18',['ERR',['../da/d41/error_8h.html#a588357de2986fdf4c1380190f7ae9f37',1,'error.h']]],
+  ['err_5fdir_5fdoes_5fnot_5fexist_19',['ERR_DIR_DOES_NOT_EXIST',['../da/d41/error_8h.html#a7fedf66e031f296257c7c6b2861bb860',1,'error.h']]],
+  ['err_5ffile_5fcopy_5ffail_20',['ERR_FILE_COPY_FAIL',['../da/d41/error_8h.html#aeb3c5b609d989b28e554fb4a5f469432',1,'error.h']]],
+  ['err_5ffile_5fopen_5fread_21',['ERR_FILE_OPEN_READ',['../da/d41/error_8h.html#a1983382c5352c0546e18832cf110d3aa',1,'error.h']]],
+  ['err_5ffile_5fopen_5fwrite_22',['ERR_FILE_OPEN_WRITE',['../da/d41/error_8h.html#a29ee4829bbe61bcef146e44d1d815d6c',1,'error.h']]],
+  ['err_5fnot_5fa_5fdirectory_23',['ERR_NOT_A_DIRECTORY',['../da/d41/error_8h.html#ae1d86fef62411687d86509208c765456',1,'error.h']]],
+  ['error_5fmsg_24',['error_msg',['../da/d41/error_8h.html#a365c44398996a0025de7c2c46deb3dd0',1,'error.h']]]
+];

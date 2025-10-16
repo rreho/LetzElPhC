@@ -1,0 +1,7 @@
+<map id="wfc_plan" name="wfc_plan">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,79,56"/>
+<area shape="rect" id="Node000002" href="$d7/d8e/align_8c.html#a00208b13e41d5ba8f2dfbea6dd749ba3" title=" " alt="" coords="154,5,256,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,35,138,26,139,31,80,40"/>
+<area shape="rect" id="Node000003" href="$d9/d54/parallel_8c.html#a772905c8b6c33d03f3c8eb15bafdb129" title=" " alt="" coords="127,55,283,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="80,46,112,51,111,56,79,52"/>
+</map>

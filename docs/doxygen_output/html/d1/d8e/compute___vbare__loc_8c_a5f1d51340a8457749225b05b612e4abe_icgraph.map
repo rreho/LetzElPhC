@@ -1,0 +1,9 @@
+<map id="elphLocal" name="elphLocal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="455,5,532,31"/>
+<area shape="rect" id="Node000002" href="$d5/dd2/compute__elph__matq_8c.html#ad32ab6f17a3745b7f82151d7f5b927f2" title=" " alt="" coords="235,5,407,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="440,21,408,21,408,16,440,16"/>
+<area shape="rect" id="Node000003" href="$da/d2e/elph__driver_8c.html#ad9f405d41cf090d652dbe1307700665f" title=" " alt="" coords="103,5,187,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="220,21,187,21,187,16,220,16"/>
+<area shape="rect" id="Node000004" href="$d3/dd5/main__elph_c_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main program entry point." alt="" coords="5,5,55,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

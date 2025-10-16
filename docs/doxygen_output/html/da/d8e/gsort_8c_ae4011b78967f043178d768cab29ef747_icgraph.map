@@ -1,0 +1,22 @@
+<map id="gsort_cmp" name="gsort_cmp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="922,31,1005,56"/>
+<area shape="rect" id="Node000002" href="$da/d8e/gsort_8c.html#a25f48d8a76001e1843dcf9cfe792ac5c" title=" " alt="" coords="750,5,866,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="907,37,866,30,866,25,907,32"/>
+<area shape="rect" id="Node000007" href="$da/d8e/gsort_8c.html#a2d5639e333298697b46460b96fb5afa2" title=" " alt="" coords="742,55,874,80"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="908,55,875,60,874,55,907,50"/>
+<area shape="rect" id="Node000003" href="$dd/de7/elec__reps_8c.html#a9ad01d68a7d4f87c39a98bf13778cd64" title=" " alt="" coords="585,5,694,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="735,21,694,21,694,16,735,16"/>
+<area shape="rect" id="Node000004" href="$d5/d9f/compute__dmats_8c.html#aceeb11551c1d6413e6d4b5cae9704493" title=" " alt="" coords="235,5,412,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="569,21,413,21,413,16,569,16"/>
+<area shape="rect" id="Node000005" href="$da/d2e/elph__driver_8c.html#ad9f405d41cf090d652dbe1307700665f" title=" " alt="" coords="103,31,187,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="220,36,188,40,187,35,219,30"/>
+<area shape="rect" id="Node000006" href="$d3/dd5/main__elph_c_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main program entry point." alt="" coords="5,31,55,56"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="87,46,55,46,55,41,87,41"/>
+<area shape="rect" id="Node000008" href="$d8/dfb/sortpw_8c.html#a2fcaf6a94fa8abd8c1cff8aa13328266" title=" " alt="" coords="605,55,674,80"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="726,70,675,70,675,65,726,65"/>
+<area shape="rect" id="Node000009" href="$d1/d8e/compute___vbare__loc_8c.html#a5f1d51340a8457749225b05b612e4abe" title=" " alt="" coords="460,55,537,80"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="589,70,537,70,537,65,589,65"/>
+<area shape="rect" id="Node000010" href="$d5/dd2/compute__elph__matq_8c.html#ad32ab6f17a3745b7f82151d7f5b927f2" title=" " alt="" coords="238,55,410,80"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="445,70,410,70,410,65,445,65"/>
+<area shape="poly" id="edge10_Node000010_Node000005" title=" " alt="" coords="222,57,187,52,188,46,223,51"/>
+</map>

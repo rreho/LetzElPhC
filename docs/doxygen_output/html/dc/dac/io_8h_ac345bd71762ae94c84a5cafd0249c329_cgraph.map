@@ -1,0 +1,14 @@
+<map id="read_input_file" name="read_input_file">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,111,80"/>
+<area shape="rect" id="Node000002" href="$dc/de1/input__parser_8c.html#a934ffa07d61c39eb100eba6298006980" title=" " alt="" coords="159,5,281,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,51,160,33,162,39,104,57"/>
+<area shape="rect" id="Node000003" href="$dc/de1/input__parser_8c.html#ad86bf596ba7520fd95858eb079a4ca10" title=" " alt="" coords="188,55,252,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="111,65,173,65,173,70,111,70"/>
+<area shape="rect" id="Node000006" href="$dc/de1/input__parser_8c.html#a99ab8503e1c24a55332a1d447e644a8a" title=" " alt="" coords="171,104,269,130"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="104,78,162,96,160,102,102,84"/>
+<area shape="rect" id="Node000004" href="$d5/d6c/string__func_8c.html#afda14833a45e70f3ee1d24d5d59571f5" title=" " alt="" coords="335,55,437,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="252,65,320,65,320,70,252,70"/>
+<area shape="rect" id="Node000005" href="$d5/d6c/string__func_8c.html#a1a4a6a5319e24099e821a93f83aa124e" title=" " alt="" coords="329,104,443,130"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="253,74,327,97,325,102,251,79"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="269,114,314,114,314,120,269,120"/>
+</map>

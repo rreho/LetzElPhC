@@ -1,0 +1,32 @@
+<map id="src/main_elphC.c" name="src/main_elphC.c">
+<area shape="rect" id="Node000001" title="Main program entry point for LetzElPhC." alt="" coords="421,5,545,31"/>
+<area shape="rect" id="Node000002" href="$d4/d0a/elph_c_8h.html" title="Core type definitions and configuration for LetzElPhC." alt="" coords="127,226,194,252"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="421,26,184,45,75,61,39,71,20,81,10,99,10,118,18,136,33,155,77,189,123,217,120,221,74,194,30,159,14,139,4,119,4,98,16,77,37,66,74,56,184,40,421,20"/>
+<area shape="rect" id="Node000003" href="$d3/d53/preprocessor_8h.html" title=" " alt="" coords="30,79,216,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="422,34,200,78,199,73,421,29"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="391,226,444,252"/>
+<area shape="poly" id="edge18_Node000001_Node000005" title=" " alt="" coords="502,30,518,44,533,62,542,83,540,105,522,140,498,171,448,219,445,215,494,168,518,137,535,104,537,84,528,65,514,48,498,34"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="475,226,550,252"/>
+<area shape="poly" id="edge19_Node000001_Node000006" title=" " alt="" coords="522,29,556,48,572,61,584,78,596,104,599,128,595,152,584,180,569,202,549,219,545,215,565,198,579,177,590,151,594,128,591,106,579,80,568,65,553,52,519,34"/>
+<area shape="rect" id="Node000008" href="$d3/d08/interpolation_8h.html" title=" " alt="" coords="240,79,417,105"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="458,34,370,75,367,70,456,29"/>
+<area shape="rect" id="Node000009" href="$dc/d69/elph_8h.html" title=" " alt="" coords="441,79,525,105"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="486,31,486,63,480,63,480,31"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="651,79,715,105"/>
+<area shape="poly" id="edge20_Node000001_Node000010" title=" " alt="" coords="518,29,638,72,636,77,516,34"/>
+<area shape="poly" id="edge8_Node000003_Node000002" title=" " alt="" coords="128,104,144,178,154,211,149,212,139,179,123,105"/>
+<area shape="rect" id="Node000004" href="$d2/d02/dtypes_8h.html" title=" " alt="" coords="248,153,374,178"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="156,103,266,144,264,149,154,108"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="287,181,201,222,199,217,284,176"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="331,177,388,215,385,220,328,181"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="346,176,465,218,463,223,344,181"/>
+<area shape="rect" id="Node000007" href="$da/d41/error_8h.html" title=" " alt="" coords="282,226,340,252"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="314,179,314,211,308,211,308,179"/>
+<area shape="poly" id="edge12_Node000008_Node000002" title=" " alt="" coords="277,108,233,126,213,139,194,154,177,182,167,212,162,210,172,180,190,151,209,134,231,121,275,103"/>
+<area shape="poly" id="edge11_Node000008_Node000004" title=" " alt="" coords="328,106,320,138,315,137,323,104"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="345,103,367,124,388,151,403,181,413,210,408,212,398,183,383,154,363,128,341,107"/>
+<area shape="poly" id="edge17_Node000009_Node000002" title=" " alt="" coords="441,105,317,134,238,155,204,183,178,215,174,212,200,179,235,150,315,129,440,100"/>
+<area shape="poly" id="edge16_Node000009_Node000004" title=" " alt="" coords="455,108,355,149,353,144,453,103"/>
+<area shape="poly" id="edge14_Node000009_Node000005" title=" " alt="" coords="480,106,432,213,427,211,475,104"/>
+<area shape="poly" id="edge15_Node000009_Node000006" title=" " alt="" coords="488,104,510,210,504,211,483,106"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="distribute_to_grps" name="distribute_to_grps">
+<area shape="rect" id="Node000001" title=" " alt="" coords="460,31,585,56"/>
+<area shape="rect" id="Node000002" href="$d5/d9f/compute__dmats_8c.html#aceeb11551c1d6413e6d4b5cae9704493" title=" " alt="" coords="235,5,412,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="445,36,413,32,413,27,445,31"/>
+<area shape="rect" id="Node000005" href="$d5/dd2/compute__elph__matq_8c.html#ad32ab6f17a3745b7f82151d7f5b927f2" title=" " alt="" coords="238,55,410,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="445,55,411,60,410,54,445,50"/>
+<area shape="rect" id="Node000003" href="$da/d2e/elph__driver_8c.html#ad9f405d41cf090d652dbe1307700665f" title=" " alt="" coords="103,31,187,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="220,36,188,40,187,35,219,30"/>
+<area shape="rect" id="Node000004" href="$d3/dd5/main__elph_c_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main program entry point." alt="" coords="5,31,55,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,46,55,46,55,41,87,41"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="222,57,187,52,188,46,223,51"/>
+</map>

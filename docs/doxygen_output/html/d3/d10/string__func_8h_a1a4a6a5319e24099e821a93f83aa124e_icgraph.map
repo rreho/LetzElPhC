@@ -1,0 +1,23 @@
+<map id="strncpy_custom" name="strncpy_custom">
+<area shape="rect" id="Node000001" title=" " alt="" coords="599,121,713,146"/>
+<area shape="rect" id="Node000002" href="$d5/d0a/pp__ph__save_8c.html#ae34b6c1d13daf4f125bf37b51efdc457" title=" " alt="" coords="270,5,404,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="626,113,591,88,550,67,476,45,405,33,405,28,477,40,552,62,593,84,629,109"/>
+<area shape="rect" id="Node000004" href="$dd/def/cli_8c.html#a0f647fa6d3d97da4157fb3087a9fb707" title=" " alt="" coords="103,70,222,96"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="591,119,550,111,461,100,372,93,222,86,222,81,372,87,462,95,551,106,592,114"/>
+<area shape="rect" id="Node000005" href="$dc/de1/input__parser_8c.html#ad86bf596ba7520fd95858eb079a4ca10" title=" " alt="" coords="470,121,533,146"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="583,136,534,136,534,131,583,131"/>
+<area shape="rect" id="Node000008" href="$dc/de1/input__parser_8c.html#a99ab8503e1c24a55332a1d447e644a8a" title=" " alt="" coords="452,170,551,196"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="600,154,545,172,543,167,598,149"/>
+<area shape="rect" id="Node000009" href="$d9/d5a/set__kernel_8c.html#a10888650d243cd09767c7b4662cdc9a1" title=" " alt="" coords="296,208,378,233"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="633,159,596,187,552,211,506,223,459,228,378,227,378,222,459,223,505,217,550,206,594,183,629,155"/>
+<area shape="rect" id="Node000003" href="$d3/dd5/main__elph_c_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main program entry point." alt="" coords="5,70,55,96"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="255,35,181,45,103,60,56,76,54,71,102,55,180,40,255,30"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="87,86,55,86,55,80,87,80"/>
+<area shape="rect" id="Node000006" href="$dc/de1/input__parser_8c.html#ac345bd71762ae94c84a5cafd0249c329" title=" " alt="" coords="284,133,390,158"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="454,140,390,144,390,139,454,134"/>
+<area shape="rect" id="Node000007" href="$da/d2e/elph__driver_8c.html#ad9f405d41cf090d652dbe1307700665f" title=" " alt="" coords="120,133,204,158"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="269,148,205,148,205,143,269,143"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="119,128,54,97,56,92,121,124"/>
+<area shape="poly" id="edge10_Node000008_Node000006" title=" " alt="" coords="437,171,389,160,391,155,438,166"/>
+<area shape="poly" id="edge12_Node000009_Node000007" title=" " alt="" coords="290,203,194,162,196,157,292,198"/>
+</map>

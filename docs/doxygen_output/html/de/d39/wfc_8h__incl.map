@@ -1,0 +1,9 @@
+<map id="src/wfc/wfc.h" name="src/wfc/wfc.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="70,5,170,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,59,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,34,60,71,57,67,103,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="83,79,157,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,31,123,63,117,63,117,31"/>
+<area shape="rect" id="Node000004" href="$d4/d0a/elph_c_8h.html" title="Core type definitions and configuration for LetzElPhC." alt="" coords="182,79,248,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="138,29,188,67,185,72,134,34"/>
+</map>

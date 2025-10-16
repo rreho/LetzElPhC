@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['acknowledgments_0',['Acknowledgments',['../d3/dcc/md__r_e_a_d_m_e.html#autotoc_md16',1,'Acknowledgments'],['../index.html#autotoc_md22',1,'Authors and Acknowledgments']]],
+  ['add_5fdvscf_2ec_1',['add_dvscf.c',['../d5/d46/add__dvscf_8c.html',1,'']]],
+  ['add_5fdvscf_5fqe_2',['add_dvscf_qe',['../d5/d46/add__dvscf_8c.html#acc6b8cc4d0a1dca773db734c9b7cea67',1,'add_dvscf_qe(ELPH_cmplx *dVscf, const ELPH_cmplx *dVloc, const struct Lattice *lattice):&#160;add_dvscf.c'],['../d8/dc9/dvloc_8h.html#acc6b8cc4d0a1dca773db734c9b7cea67',1,'add_dvscf_qe(ELPH_cmplx *dVscf, const ELPH_cmplx *dVloc, const struct Lattice *lattice):&#160;add_dvscf.c']]],
+  ['add_5felphnonlocal_3',['add_elphNonLocal',['../d6/db8/_vbare__nloc_8c.html#abeb59b7a11cbc7ffec9b5bb2759ebbdd',1,'add_elphNonLocal(struct WFC *wfcs, struct Lattice *lattice, struct Pseudo *pseudo, int ikq, int ik, int kqsym, int ksym, ELPH_cmplx *eigVec, ELPH_cmplx *elph_kq_mn, const struct ELPH_MPI_Comms *Comm):&#160;Vbare_nloc.c'],['../d9/dd1/_vnonloc_8h.html#abeb59b7a11cbc7ffec9b5bb2759ebbdd',1,'add_elphNonLocal(struct WFC *wfcs, struct Lattice *lattice, struct Pseudo *pseudo, int ikq, int ik, int kqsym, int ksym, ELPH_cmplx *eigVec, ELPH_cmplx *elph_kq_mn, const struct ELPH_MPI_Comms *Comm):&#160;Vbare_nloc.c']]],
+  ['add_5fph_5fdyn_5flong_5frange_4',['add_ph_dyn_long_range',['../db/d44/dyn__long__range_8c.html#a8f542a339e339996795dd2eafe9ac1de',1,'add_ph_dyn_long_range(const ELPH_float *qpt, struct Lattice *lattice, struct Phonon *phonon, const ND_int *Ggrid, const ND_int sign, const ELPH_float *atomic_masses, ELPH_cmplx *dyn_mat_asr, ELPH_cmplx *dyn_mat):&#160;dyn_long_range.c'],['../d3/d34/phonon_8h.html#a8f542a339e339996795dd2eafe9ac1de',1,'add_ph_dyn_long_range(const ELPH_float *qpt, struct Lattice *lattice, struct Phonon *phonon, const ND_int *Ggrid, const ND_int sign, const ELPH_float *atomic_masses, ELPH_cmplx *dyn_mat_asr, ELPH_cmplx *dyn_mat):&#160;dyn_long_range.c']]],
+  ['add_5fph_5fdyn_5flong_5frange_5finternal_5',['add_ph_dyn_long_range_internal',['../db/d44/dyn__long__range_8c.html#a5c9bf2378b293980114e987a84c9df49',1,'dyn_long_range.c']]],
+  ['advanced_20usage_6',['Advanced Usage',['../d5/d66/running_examples.html#autotoc_md38',1,'']]],
+  ['alat_5fvec_7',['alat_vec',['../d4/db3/struct_lattice.html#a3fe0f2bcf523ff1fca70c2355c21a609',1,'Lattice']]],
+  ['align_2ec_8',['align.c',['../d7/d8e/align_8c.html',1,'']]],
+  ['align_5flen_9',['align_len',['../d0/d04/struct_e_l_p_h__fft__plan.html#a9a9e54a08e6911dbc9ae718f1e83f7ba',1,'ELPH_fft_plan']]],
+  ['alignment_5flen_10',['alignment_len',['../d7/d8e/align_8c.html#a00208b13e41d5ba8f2dfbea6dd749ba3',1,'alignment_len(void):&#160;align.c'],['../d7/d76/fft_8h.html#a00208b13e41d5ba8f2dfbea6dd749ba3',1,'alignment_len(void):&#160;align.c']]],
+  ['alloc_5fand_5fcompute_5ff_5fcoeff_11',['alloc_and_Compute_f_Coeff',['../d3/df0/fcoeff_8c.html#a51c4fcdc7b80cf7bc1ecad7f6fbbcfad',1,'alloc_and_Compute_f_Coeff(struct Lattice *lattice, struct Pseudo *pseudo):&#160;fcoeff.c'],['../da/d90/fcoeff_8h.html#a51c4fcdc7b80cf7bc1ecad7f6fbbcfad',1,'alloc_and_Compute_f_Coeff(struct Lattice *lattice, struct Pseudo *pseudo):&#160;fcoeff.c']]],
+  ['alloc_5fand_5fset_5fgvec_12',['alloc_and_set_Gvec',['../da/d77/get__save__data_8c.html#ab241283ae68227b8771196167208fbf6',1,'get_save_data.c']]],
+  ['ambig_13',['ambig',['../d3/d2f/_e_l_p_h__getopt__long_8c.html#ada1709fe1ad82fed216b6e56e46f28b3',1,'ELPH_getopt_long.c']]],
+  ['analysis_14',['Python Analysis',['../d5/d66/running_examples.html#autotoc_md43',1,'']]],
+  ['and_20acknowledgments_15',['Authors and Acknowledgments',['../index.html#autotoc_md22',1,'']]],
+  ['and_20installation_16',['Building and Installation',['../index.html#autotoc_md20',1,'']]],
+  ['and_20k_20point_20sampling_17',['Custom Grid and k-point Sampling',['../d5/d66/running_examples.html#autotoc_md41',1,'']]],
+  ['api_20documentation_18',['API Documentation',['../index.html#autotoc_md21',1,'API Documentation'],['../d3/dcc/md__r_e_a_d_m_e.html#autotoc_md5',1,'Generating API Documentation']]],
+  ['apply_5ftrans_5fwfc_19',['apply_trans_wfc',['../db/d7a/trans__wfc_8c.html#a481ceff1e11d889b6a9e302c9546b05d',1,'apply_trans_wfc(const ELPH_float *trans_vec, const ELPH_float *kvec, const ND_int nsets, const ND_int npw, const ELPH_float *gvecs, ELPH_cmplx *wfc_G, const bool conjugate):&#160;trans_wfc.c'],['../d1/dea/wfc_8h.html#a481ceff1e11d889b6a9e302c9546b05d',1,'apply_trans_wfc(const ELPH_float *trans_vec, const ELPH_float *kvec, const ND_int nsets, const ND_int npw, const ELPH_float *gvecs, ELPH_cmplx *wfc_G, const bool conjugate):&#160;trans_wfc.c']]],
+  ['atom_5ftype_20',['atom_type',['../d4/db3/struct_lattice.html#af152446a30a3e5acd4113a27d049abf0',1,'Lattice']]],
+  ['atomic_5fpos_21',['atomic_pos',['../d4/db3/struct_lattice.html#a27cd3d80b24e14246f0703e4fa78504a',1,'Lattice']]],
+  ['authors_20and_20acknowledgments_22',['Authors and Acknowledgments',['../index.html#autotoc_md22',1,'']]],
+  ['available_20examples_23',['Available Examples',['../d5/d66/running_examples.html#autotoc_md28',1,'']]],
+  ['axpy_24',['aXpY',['../de/d2d/numerical__func_8c.html#a60c1b1d2e12fd56ba7739592eb88a341',1,'aXpY(const ND_int n, const ELPH_cmplx a, const ELPH_cmplx *X, ELPH_cmplx *Y):&#160;numerical_func.c'],['../df/def/numerical__func_8h.html#a60c1b1d2e12fd56ba7739592eb88a341',1,'aXpY(const ND_int n, const ELPH_cmplx a, const ELPH_cmplx *X, ELPH_cmplx *Y):&#160;numerical_func.c']]]
+];

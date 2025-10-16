@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['calc_0',['calc',['../da/dc4/structcalc__details.html#a3e7e729b03aca25713df0b01ec5d07ae',1,'calc_details']]],
+  ['code_1',['code',['../da/dc4/structcalc__details.html#ab805b5f19ed1df9415773342369d335c',1,'calc_details']]],
+  ['comm_2',['comm',['../d0/d04/struct_e_l_p_h__fft__plan.html#aecd8a267830a35de6c4628f8c22577bf',1,'ELPH_fft_plan']]],
+  ['comm_5fbufs_3',['comm_bufs',['../d0/d04/struct_e_l_p_h__fft__plan.html#a514730dd99f146131a739149f06f9893',1,'ELPH_fft_plan']]],
+  ['commk_4',['commK',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#a2202319782849549191b9a5e21a5781d',1,'ELPH_MPI_Comms']]],
+  ['commk_5frank_5',['commK_rank',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#a5b851eeb5ca3c6321074f679d19ce7ac',1,'ELPH_MPI_Comms']]],
+  ['commk_5fsize_6',['commK_size',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#ab66af5bcac4bc012486cfdf114582f54',1,'ELPH_MPI_Comms']]],
+  ['commq_7',['commQ',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#a74fc54c63df41c9acc9a6cbc9890acf3',1,'ELPH_MPI_Comms']]],
+  ['commq_5frank_8',['commQ_rank',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#aa466188b4f5ce60c6d0280caade9af2a',1,'ELPH_MPI_Comms']]],
+  ['commq_5fsize_9',['commQ_size',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#aa5c6118a8743d38da1dcb0e40472b98d',1,'ELPH_MPI_Comms']]],
+  ['commr_10',['commR',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#add19fbd58d49faaaafc455c374732820',1,'ELPH_MPI_Comms']]],
+  ['commr_5frank_11',['commR_rank',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#a967bf6822c4d32ba2b9d851d3672c58c',1,'ELPH_MPI_Comms']]],
+  ['commr_5fsize_12',['commR_size',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#ac25b01eff0961175b68255070653390d',1,'ELPH_MPI_Comms']]],
+  ['commrq_13',['commRq',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#a34d9f42c7a691bc04adfddb89e7605bd',1,'ELPH_MPI_Comms']]],
+  ['commrq_5frank_14',['commRq_rank',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#a231a76a67291d5843527d032568640fa',1,'ELPH_MPI_Comms']]],
+  ['commrq_5fsize_15',['commRq_size',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#a1141a99defebb499fce364e5dbb88726',1,'ELPH_MPI_Comms']]],
+  ['commw_16',['commW',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#a09d6a2204dda652dcdc0e75445fed6c1',1,'ELPH_MPI_Comms']]],
+  ['commw_5frank_17',['commW_rank',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#a70bd7e51f01d767974d9d27476440140',1,'ELPH_MPI_Comms']]],
+  ['commw_5fsize_18',['commW_size',['../d0/d3b/struct_e_l_p_h___m_p_i___comms.html#a151b5c3c6f10a52d99929034361d7b70',1,'ELPH_MPI_Comms']]],
+  ['count_19',['count',['../d9/d7b/struct_e_l_p_h__timer.html#a6839a3286847eaf098ce4841721564ef',1,'ELPH_timer']]],
+  ['cplan_5fx_20',['cplan_x',['../d0/d04/struct_e_l_p_h__fft__plan.html#a3b562d43985dd4ba62828d2a305b485d',1,'ELPH_fft_plan']]]
+];

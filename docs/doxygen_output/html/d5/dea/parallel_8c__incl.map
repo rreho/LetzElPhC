@@ -1,0 +1,23 @@
+<map id="src/common/parallel.c" name="src/common/parallel.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="104,5,254,31"/>
+<area shape="rect" id="Node000002" href="$df/d5c/parallel_8h.html" title=" " alt="" coords="32,79,105,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,34,101,73,98,68,159,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="11,226,64,252"/>
+<area shape="poly" id="edge9_Node000001_Node000003" title=" " alt="" coords="105,31,59,49,39,63,22,81,14,96,10,112,10,147,17,182,27,211,22,213,12,183,4,148,5,111,9,94,18,77,35,59,56,44,103,26"/>
+<area shape="rect" id="Node000004" href="$d2/d02/dtypes_8h.html" title=" " alt="" coords="181,153,252,178"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="184,31,212,137,207,138,179,32"/>
+<area shape="rect" id="Node000006" href="$d4/d0a/elph_c_8h.html" title="Core type definitions and configuration for LetzElPhC." alt="" coords="88,226,155,252"/>
+<area shape="poly" id="edge12_Node000001_Node000006" title=" " alt="" coords="178,32,131,212,126,211,173,31"/>
+<area shape="rect" id="Node000007" href="$da/d41/error_8h.html" title=" " alt="" coords="277,226,334,252"/>
+<area shape="poly" id="edge13_Node000001_Node000007" title=" " alt="" coords="189,30,224,82,267,151,296,211,292,213,262,154,220,85,185,33"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="327,79,396,105"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="211,29,317,71,316,75,209,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="68,106,46,211,41,210,63,104"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="94,103,178,143,176,148,92,108"/>
+<area shape="poly" id="edge8_Node000002_Node000006" title=" " alt="" coords="75,104,114,211,109,213,70,106"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="187,181,80,224,78,219,185,176"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="179,226,253,252"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="219,179,219,211,214,211,214,179"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="202,181,151,219,148,215,199,177"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="233,177,280,214,277,219,230,181"/>
+</map>

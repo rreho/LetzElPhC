@@ -1,0 +1,15 @@
+<map id="src/common/parallel.h" name="src/common/parallel.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="71,5,220,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,153,59,178"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,33,99,81,52,142,48,139,95,77,134,30"/>
+<area shape="rect" id="Node000003" href="$d2/d02/dtypes_8h.html" title=" " alt="" coords="110,79,181,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,31,148,63,143,63,143,31"/>
+<area shape="rect" id="Node000005" href="$d4/d0a/elph_c_8h.html" title="Core type definitions and configuration for LetzElPhC." alt="" coords="262,153,328,178"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="159,29,273,140,269,143,156,33"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="128,107,66,146,63,142,125,103"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="83,153,157,178"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="144,106,132,139,127,137,139,104"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="172,103,257,143,254,148,170,108"/>
+<area shape="rect" id="Node000006" href="$da/d41/error_8h.html" title=" " alt="" coords="181,153,238,178"/>
+<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="158,103,191,139,187,143,154,107"/>
+</map>

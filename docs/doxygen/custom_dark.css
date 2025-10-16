@@ -1,0 +1,118 @@
+/* custom_dark.css — Soft Dark Professional Theme for Doxygen */
+
+/* Base layout */
+body, table, div, p, dl {
+  background-color: #1b1c1f;      /* dark grey, not black */
+  color: #f0f0f0;                 /* near-white text for readability */
+  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  color: #ffffff;
+  border-bottom: 1px solid #2d2f33;
+  margin-top: 1.2em;
+}
+
+/* Links */
+a, a:visited {
+  color: #64a9ff;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #8bc4ff;
+  text-decoration: underline;
+}
+
+/* Navigation tree and sidebar */
+#nav-tree, #side-nav {
+  background-color: #232529;
+  border-right: 1px solid #2f3135;
+}
+.navpath {
+  background-color: #232529;
+  border-top: 1px solid #2f3135;
+}
+.navpath li a {
+  color: #80b6ff;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+}
+th {
+  background-color: #2a2c31;
+  color: #f5f5f5;
+  border-bottom: 1px solid #3a3d42;
+}
+td {
+  background-color: #24262b;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+/* Code blocks and inline code */
+pre, code {
+  background-color: #2b2d32;
+  color: #eaeaea;
+  font-family: "Fira Code", "Source Code Pro", monospace;
+  border: 1px solid #3a3d42;
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+pre {
+  overflow-x: auto;
+}
+
+/* Syntax highlighting tweaks */
+pre.fragment span.comment { color: #7ca879; }
+pre.fragment span.keyword { color: #c792ea; }
+pre.fragment span.string  { color: #ecc48d; }
+pre.fragment span.number  { color: #b5cea8; }
+pre.fragment span.preprocessor { color: #82aaff; }
+
+/* Member declarations */
+.memberdecls td.memItemLeft,
+.memberdecls td.memItemRight {
+  background-color: #232529;
+}
+
+/* Index headers */
+.index-header {
+  background-color: #222428;
+  border-bottom: 1px solid #2f3135;
+}
+
+/* Search box */
+#MSearchBox {
+  background-color: #2a2c31;
+  border: 1px solid #3a3d42;
+}
+#MSearchBox input {
+  color: #f0f0f0;
+}
+
+/* Footer */
+.footer {
+  background-color: #222428;
+  color: #aaaaaa;
+  font-size: 13px;
+  border-top: 1px solid #2f3135;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Tooltips, popups, etc. */
+div.tooltip {
+  background-color: #2b2d32;
+  color: #f0f0f0;
+  border: 1px solid #3a3d42;
+}
+
+/* Scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
