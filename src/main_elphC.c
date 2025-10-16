@@ -1,5 +1,32 @@
-/*
- * This is the starting point of the program
+/**
+ * @file main_elphC.c
+ * @brief Main program entry point for LetzElPhC
+ * @author Muralidhar Nalabothula
+ * @author Ludger Wirtz
+ * 
+ * This file contains the entry point of the LetzElPhC program. It handles:
+ * - MPI initialization and communication setup
+ * - Command-line argument parsing
+ * - Routing to appropriate calculation modules (preprocessing, electron-phonon coupling, interpolation)
+ * - Final cleanup and MPI finalization
+ * 
+ * @section usage Usage
+ * 
+ * The program can be invoked with various commands:
+ * - `elphC --help`: Show help message
+ * - `elphC --version`: Show version information
+ * - `elphC -i <input_file>`: Run main electron-phonon calculation
+ * - `elphC -w <input_file>`: Run interpolation calculation
+ * 
+ * @section mpi MPI Execution
+ * 
+ * The program uses MPI for parallelization. Run with mpirun/mpiexec:
+ * ```
+ * mpirun -n <num_procs> ./elphC -i input.in
+ * ```
+ * 
+ * OpenMP is also supported for hybrid parallelization when compiled with
+ * the ELPH_OMP_PARALLEL_BUILD flag.
  */
 
 #include "elphC.h"
@@ -10,6 +37,26 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
+/**
+ * @brief Main program entry point
+ * 
+ * @param argc Number of command-line arguments
+ * @param argv Array of command-line argument strings
+ * 
+ * @return Exit status (0 on success, non-zero on error)
+ * 
+ * @details
+ * 
+ * The main function performs the following steps:
+ * 1. Initialize MPI communication (with thread support if compiled with OpenMP)
+ * 2. Parse command-line arguments on the master process (rank 0)
+ * 3. Broadcast configuration to all processes
+ * 4. Route execution to appropriate module:
+ *    - elph_driver(): Compute electron-phonon matrix elements
+ *    - interpolation_driver(): Perform Wannier interpolation
+ *    - Preprocessor operations: Prepare input files
+ * 5. Finalize MPI and return
+ */
 int main(int argc, char* argv[])
 {
 #if defined(ELPH_OMP_PARALLEL_BUILD)
