@@ -2,7 +2,6 @@
  * @file main_elphC.c
  * @brief Main program entry point for LetzElPhC
  * @author Muralidhar Nalabothula
- * @author Ludger Wirtz
  * 
  * This file contains the entry point of the LetzElPhC program. It handles:
  * - MPI initialization and communication setup

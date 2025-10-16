@@ -39,7 +39,7 @@ cd "$SCRIPT_DIR"
 
 print_header() {
     echo -e "${BLUE}╔════════════════════════════════════════════════════════════════╗${NC}"
-    echo -e "${BLUE}║${NC}  🌊 LetzElPhC Documentation Generator              ${BLUE}║${NC}"
+    echo -e "${BLUE}║${NC}  🌊 LetzElPhC Documentation Generator                          ${BLUE}║${NC}"
     echo -e "${BLUE}╚════════════════════════════════════════════════════════════════╝${NC}"
     echo ""
 }
@@ -302,7 +302,7 @@ fi
 
 # Final message
 echo -e "${GREEN}╔════════════════════════════════════════════════════════════════╗${NC}"
-echo -e "${GREEN}║${NC}  ✅ Documentation generation complete!                        ${GREEN}║${NC}"
+echo -e "${GREEN}║${NC}  ✅ Documentation generation complete!                         ${GREEN}║${NC}"
 echo -e "${GREEN}╚════════════════════════════════════════════════════════════════╝${NC}"
 echo ""
 echo "📖 View documentation at: doxygen_output/html/index.html"

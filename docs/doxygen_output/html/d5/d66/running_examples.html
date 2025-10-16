@@ -106,13 +106,13 @@ $(function(){initNavTree('d5/d66/running_examples.html','../../',''); });
 <div class="textblock"><p><a class="anchor" id="md_docs_2running__examples"></a></p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md27"></a>
 Overview</h1>
-<p>LetzElPhC includes example calculations that demonstrate how to use the code for electron-%phonon coupling calculations. These examples use Quantum ESPRESSO as the DFT backend.</p>
+<p>LetzElPhC includes example calculations that demonstrate how to use the code for electron-phonon coupling calculations. These examples use Quantum ESPRESSO as the DFT backend.</p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md28"></a>
 Available Examples</h1>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md29"></a>
 Silicon Bulk Calculation</h2>
 <p>Located in: <span class="tt">examples/qe/silicon/</span></p>
-<p>This is a simple example computing electron-%phonon coupling for bulk silicon at the Gamma point.</p>
+<p>This is a simple example computing electron-phonon coupling for bulk silicon at the Gamma point.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md30"></a>
 Files in the Example</h3>
 <ul>
@@ -128,8 +128,8 @@ Running the Silicon Example</h3>
 <div class="fragment"><div class="line">cd examples/qe/silicon/</div>
 <div class="line">pw.x &lt; Si.scf.in &gt; Si.scf.out</div>
 </div><!-- fragment --><p>This generates the ground state wave functions and density.</p>
-<p><b>Step 2: Run the %<a class="el" href="../../d4/d2a/struct_phonon.html">Phonon</a> Calculation</b></p>
-<p>Next, compute the %phonon frequencies and polarization vectors:</p>
+<p><b>Step 2: Run the Phonon Calculation</b></p>
+<p>Next, compute the phonon frequencies and polarization vectors:</p>
 <div class="fragment"><div class="line">ph.x &lt; Si.ph.in &gt; Si.ph.out</div>
 </div><!-- fragment --><p>This creates the dynamical matrix files needed by LetzElPhC.</p>
 <p><b>Step 3: Run LetzElPhC</b></p>
@@ -140,12 +140,12 @@ Running the Silicon Example</h3>
 </div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md32"></a>
 Output Files</h3>
 <p>The calculation produces NetCDF files containing:</p><ul>
-<li>Electron-%phonon coupling matrix elements</li>
+<li>Electron-phonon coupling matrix elements</li>
 <li>Band structure information</li>
-<li>%<a class="el" href="../../d4/d2a/struct_phonon.html">Phonon</a> properties</li>
+<li>Phonon properties</li>
 <li>Symmetry operations applied</li>
 </ul>
-<p>These files can be processed by tools like EPW or other electron-%phonon post-processing codes.</p>
+<p>These files can be processed by tools like EPW or other electron-phonon post-processing codes.</p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md33"></a>
 Input File Format</h1>
 <p>The LetzElPhC configuration file (<span class="tt">Si.elph.in</span>) contains settings for:</p>
@@ -163,7 +163,7 @@ System Parameters</h2>
 <div class="line"># Number of bands to include</div>
 <div class="line">nbnd = 20</div>
 <div class="line"> </div>
-<div class="line"># Number of q-points for \%phonon calculations</div>
+<div class="line"># Number of q-points for %phonon calculations</div>
 <div class="line">nq = 4</div>
 </div><!-- fragment --><h2 class="doxsection"><a class="anchor" id="autotoc_md36"></a>
 Interpolation Settings</h2>
@@ -201,7 +201,7 @@ Custom Grid and k-point Sampling</h2>
 <div class="line">nqpts = 25            # More q-points</div>
 </div><!-- fragment --><h1 class="doxsection"><a class="anchor" id="autotoc_md42"></a>
 Post-processing Results</h1>
-<p>LetzElPhC outputs NetCDF files containing electron-%phonon data. These can be processed with:</p>
+<p>LetzElPhC outputs NetCDF files containing electron-phonon data. These can be processed with:</p>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md43"></a>
 Python Analysis</h2>
 <div class="fragment"><div class="line"><span class="keyword">import</span> netCDF4</div>
@@ -210,7 +210,7 @@ Python Analysis</h2>
 <div class="line"><span class="comment"># Load the output file</span></div>
 <div class="line">nc = netCDF4.Dataset(<span class="stringliteral">&#39;results/elph_coupling.nc&#39;</span>, <span class="stringliteral">&#39;r&#39;</span>)</div>
 <div class="line"> </div>
-<div class="line"><span class="comment"># Access electron-\%phonon matrix elements</span></div>
+<div class="line"><span class="comment"># Access electron-%phonon matrix elements</span></div>
 <div class="line">g_matrices = nc.variables[<span class="stringliteral">&#39;g_matrix&#39;</span>][:]</div>
 <div class="line">frequencies = nc.variables[<span class="stringliteral">&#39;frequencies&#39;</span>][:]</div>
 <div class="line"> </div>

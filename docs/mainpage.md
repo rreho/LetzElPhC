@@ -32,9 +32,9 @@ See the main [README.md](../../README.md) for detailed installation instructions
 ## Authors and Acknowledgments
 
 **Main Developers:**
-- Muralidhar Nalabothula (Code development)
-- Ludger Wirtz (Supervision)
-- Riccardo Reho (Documentation and extensions)
+- Muralidhar Nalabothula
+- Ludger Wirtz
+- Riccardo Reho
 
 **Acknowledgments:**
 - Fulvio Paleari (Testing and Yambopy interface)
