@@ -9,7 +9,7 @@ git.sh
 version*
 **un~
 clang_format.sh
-docs/*
+!docs/*
 !docs/main.tex
 !docs/refs.bib
 !docs/splncs04.bst
