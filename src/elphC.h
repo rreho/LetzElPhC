@@ -2,7 +2,6 @@
  * @file elphC.h
  * @brief Core type definitions and configuration for LetzElPhC
  * @author Muralidhar Nalabothula
- * @author Ludger Wirtz
  * 
  * This header file contains fundamental type definitions and compile-time configuration
  * macros for the LetzElPhC code. It ensures C99 compliance and sets up the floating-point

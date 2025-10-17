@@ -12,16 +12,18 @@
  * @section usage Usage
  * 
  * The program can be invoked with various commands:
- * - `elphC --help`: Show help message
- * - `elphC --version`: Show version information
- * - `elphC -i <input_file>`: Run main electron-phonon calculation
- * - `elphC -w <input_file>`: Run interpolation calculation
+ * - `lelphc --help`: Show help message
+ * - `lelphc --version`: Show version information
+ * - `lelphc -F <input_file>`: Run main electron-phonon calculation
+ * - `lelphc -code <input_file>`: DFT code. Currently only qe is supported
+ * - `lelphc -i `: Interpolation mode.
+
  * 
  * @section mpi MPI Execution
  * 
  * The program uses MPI for parallelization. Run with mpirun/mpiexec:
  * ```
- * mpirun -n <num_procs> ./elphC -i input.in
+ * mpirun -n <num_procs> ./lelphc -F input.in
  * ```
  * 
  * OpenMP is also supported for hybrid parallelization when compiled with
