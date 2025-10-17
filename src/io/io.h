@@ -23,10 +23,10 @@
  * @param start_band Starting band index
  * @param end_band Ending band index
  * @param wfcs Wave function structure (out)
- * @param ph_save_dir \%Phonon save directory path
+ * @param ph_save_dir %Phonon save directory path
  * @param lattice Lattice structure (out)
  * @param pseudo Pseudopotential data (out)
- * @param phonon \%Phonon data (out)
+ * @param phonon %Phonon data (out)
  * @param dft_code DFT code type
  * @return void
  */
@@ -38,8 +38,8 @@ void read_and_alloc_save_data(char* SAVEdir, const struct ELPH_MPI_Comms* Comm,
                               enum ELPH_dft_code dft_code);
 
 /**
- * @brief Free \%phonon data structures
- * @param phonon \%Phonon data to free
+ * @brief Free %phonon data structures
+ * @param phonon %Phonon data to free
  * @return void
  */
 void free_phonon_data(struct Phonon* phonon);
@@ -49,7 +49,7 @@ void free_phonon_data(struct Phonon* phonon);
  * @param wfcs Wave function data
  * @param lattice Lattice data
  * @param pseudo Pseudopotential data
- * @param phonon \%Phonon data
+ * @param phonon %Phonon data
  * @return void
  */
 void free_save_data(struct WFC* wfcs, struct Lattice* lattice,
@@ -117,7 +117,7 @@ void def_ncVar(const int ncid, int* varid, ND_int rank, nc_type xtype,
  * @brief Write basic metadata to NetCDF file
  * @param ncid NetCDF file ID
  * @param lattice Lattice structure
- * @param phonon \%Phonon data
+ * @param phonon %Phonon data
  * @param kernel_str Kernel type string
  * @param convention_str Convention string
  * @return void
