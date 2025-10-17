@@ -73,28 +73,84 @@ struct ELPH_fft_plan
     MPI_Comm comm;  // comm
 };
 
-/* align.c */
-// aligment length finder
+/**
+ * @brief Determine optimal SIMD alignment length for FFT
+ * @return Alignment length in bytes
+ */
 ND_int alignment_len(void);
 
-/*planner */
+/**
+ * @brief Create FFT plan for wave function transforms
+ * @param plan FFT plan structure (out)
+ * @param ngvecs_loc Local number of G-vectors
+ * @param nzloc Local Z-dimension for 3D FFT
+ * @param nGxyloc Local XY G-vector count
+ * @param gvecs G-vector coordinates
+ * @param fft_dims FFT grid dimensions [Nx, Ny, Nz]
+ * @param fft_flags FFTW planning flags
+ * @param comm MPI communicator
+ * @return void
+ */
 void wfc_plan(struct ELPH_fft_plan* plan, const ND_int ngvecs_loc,
               const ND_int nzloc, const ND_int nGxyloc, const int* gvecs,
               const ND_int* fft_dims, unsigned fft_flags, MPI_Comm comm);
 
+/**
+ * @brief Destroy FFT plan and free memory
+ * @param plan FFT plan to destroy
+ * @return void
+ */
 void wfc_destroy_plan(struct ELPH_fft_plan* plan);
 
-/* fft */
+/**
+ * @brief Forward 3D FFT: real-space to G-space
+ * @param plan FFT plan structure
+ * @param nsets Number of bands/states
+ * @param wfcr Input real-space wave functions
+ * @param wfcG Output G-space wave functions
+ * @param conjugate Apply conjugate operation flag
+ * @return void
+ */
 void fft3D(struct ELPH_fft_plan* plan, const ND_int nsets, ELPH_cmplx* wfcr,
            ELPH_cmplx* wfcG, const bool conjugate);
 
-/*invfft*/
+/**
+ * @brief Inverse 3D FFT: G-space to real-space
+ * @param plan FFT plan structure
+ * @param nsets Number of bands/states
+ * @param wfcG Input G-space wave functions
+ * @param wfcr Output real-space wave functions
+ * @param conjugate Apply conjugate operation flag
+ * @return void
+ */
 void invfft3D(struct ELPH_fft_plan* plan, const ND_int nsets, ELPH_cmplx* wfcG,
               ELPH_cmplx* wfcr, const bool conjugate);
 
+/**
+ * @brief Forward MPI transpose for FFT decomposition
+ * @param plan FFT plan structure
+ * @return void
+ */
 void fwd_transpose(struct ELPH_fft_plan* plan);
+
+/**
+ * @brief Backward MPI transpose for FFT decomposition
+ * @param plan FFT plan structure
+ * @return void
+ */
 void bwd_transpose(struct ELPH_fft_plan* plan);
 
+/**
+ * @brief Compute convolution via FFT: V(r) * psi(r)
+ * @param plan FFT plan structure
+ * @param nspinor Spinor components (1 or 2)
+ * @param nmag Number of magnetization components
+ * @param Vpotr Potential in real-space
+ * @param psir Wave function in real-space
+ * @param wfcG Output product in G-space
+ * @param conjugate Apply conjugate operation flag
+ * @return void
+ */
 void fft_convolution3D(struct ELPH_fft_plan* plan, const ND_int nspinor,
                        ND_int nmag, const ELPH_cmplx* Vpotr,
                        const ELPH_cmplx* psir, ELPH_cmplx* wfcG,
