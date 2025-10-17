@@ -1,0 +1,62 @@
+optics
+em1s
+bse
+bsk
+bss
+em1s
+Chimod= "Hartree"
+NGsBlkXs= 1000    mHa
+BSENGexx = 40.0 Ry
+% BndsRnXs
+  1 | 10
+%
+% DmRngeXs
+  0.100000 | 0.100000 | eV
+%
+% LongDrXs
+  1.000000 | 1.000000 | 1.000000
+%
+X_all_q_CPU= "1 1 1 1"
+X_all_q_ROLEs= "q k c v"
+NLogCPUs=1
+BS_CPU="1 1 1"                       # [PARALLEL] CPUs for each role
+BS_ROLEs="eh k t"                     # [PARALLEL] CPUs roles (k,eh,t)
+BSKmod= "SEX"
+BSSmod= "s"
+BSEmod= "resonant"
+rim_cut                        # [R RIM CUT] Coulomb potential
+RandQpts=100000                       # [RIM] Number of random q-points in the BZ
+RandGvec= 400                RL    # [RIM] Coulomb interaction RS components
+BSSNEig= 10                      # [SLEPC/DIAGO] Number of eigenvalues to compute
+BSSEnTarget= 2.000000      eV    # [SLEPC] Target energy to find eigenvalues
+BSSSlepcApproach= "Krylov-Schur" # [SLEPC] Approach ("Krylov-Schur","Generalized-Davidson","Jacobi-Davidson")
+BSSSlepcPrecondition= "none+none+nopc" # [SLEPC] Precondition technique (none|preonly+jacobi|bcgs+jacobi)
+BSSSlepcMaxIt=0
+WRbsWF
+BSSSlepcMaxIt=10000000
+BSSSlepcMatrix
+CUTGeo= "slab z"
+% BSEBands
+  8 | 9
+%
+% BSEQptR
+  1 | 12 |   #                        # [BSK] Transferred momenta range
+%
+Lkind = "full"
+#KfnQPdb= "E < ./GW_BSE/ndb.QP"
+
+% BDmRange
+  0.0100000 | 0.0100000 | eV
+%
+% BEnRange
+  0.000000 | 12.000000 | eV
+%
+%KfnQP_E
+2.000000|1.000000|1.000000|             #       (EXTQP)(BSK)(BSS)       E parameters (c/v) eV|adim|adim
+%
+BEnSteps= 3000
+DIP_CPU= "2 1 1"                      # [PARALLEL] CPUs for each role
+DIP_ROLEs= "k c v"                    # [PARALLEL] CPUs roles (k,c,v)
+% BLongDir
+  1.000000 | 1.000000 | 0.000000
+%
