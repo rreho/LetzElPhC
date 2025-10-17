@@ -145,7 +145,6 @@ WARN_LOGFILE           = ./doxygen_warnings.log
 #---------------------------------------------------------------------------
 
 INPUT                  = ../src \
-                         ../README.md \
                          ./mainpage.md \
                          ./running_examples.md
                          
