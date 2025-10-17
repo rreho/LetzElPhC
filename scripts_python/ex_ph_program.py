@@ -51,7 +51,7 @@ Exph = params.get("Exph", True)
 Temp = params.get("Temp", 20)
 ome_range = params.get("ome_range", [0.1, 1.0, 10])
 broading = params.get("broading", 0.004)
-kcentre = params.get("kcentre", [])
+kcentre = params.get("kcentre") or []
 npol = params.get("npol", 3)
 #
 ## read the lattice data
