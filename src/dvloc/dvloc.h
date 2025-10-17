@@ -40,7 +40,7 @@ void add_dvscf_qe(ELPH_cmplx* dVscf, const ELPH_cmplx* dVloc,
                   const struct Lattice* lattice);
 
 /**
- * @brief Compute local electron-\%phonon coupling matrix element
+ * @brief Compute local electron-%phonon coupling matrix element
  * @param qpt q-point coordinate
  * @param wfcs Wave function data
  * @param lattice Lattice structure
@@ -62,7 +62,7 @@ void elphLocal(const ELPH_float* qpt, struct WFC* wfcs, struct Lattice* lattice,
  * @param qpt q-point coordinate
  * @param lattice Lattice structure
  * @param pseudo Pseudopotential data
- * @param eigVec \%Phonon eigenvector
+ * @param eigVec %Phonon eigenvector
  * @param Vlocr Output local potential derivative real-space
  * @param commK MPI communicator for k-points
  * @return void
@@ -72,7 +72,7 @@ void dVlocq(const ELPH_float* qpt, struct Lattice* lattice,
             MPI_Comm commK);
 
 /**
- * @brief Compute long-range interaction electron-\%phonon coupling
+ * @brief Compute long-range interaction electron-%phonon coupling
  * @param qpt q-point coordinate
  * @param gvecs G-vector list
  * @param npw_loc Number of local plane waves
@@ -101,9 +101,9 @@ void dVlong_range_kernel(const ELPH_float* qpt, const ELPH_float* gvecs,
  * @brief Add long-range correction to potential derivative
  * @param qpt q-point coordinate
  * @param lattice Lattice structure
- * @param phonon \%Phonon data
+ * @param phonon %Phonon data
  * @param Zvals Atomic charge values
- * @param eigVec \%Phonon eigenvector
+ * @param eigVec %Phonon eigenvector
  * @param dVscf Derivative potential (in/out)
  * @param sign Sign for correction (1 or -1)
  * @param only_induced_part Compute only induced part flag
