@@ -3,7 +3,7 @@
 ## Overview
 
 LetzElPhC includes example calculations that demonstrate how to use the code for electron-%phonon coupling calculations.
-These examples use Quantum ESPRESSO as the DFT backend.
+These examples use Quantum ESPRESSO as the DFT backend and some python fortran scripts. Scripts are provided in the folder `scripts` and the necessary conventional libraries must be pre-installed. For the Fortran files, the same dependencies as the ones employed for QE should also be installed. The following sections provide detailed instructions for running these examples.
 
 ## Available Examples
 
