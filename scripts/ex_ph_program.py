@@ -31,7 +31,7 @@ npol: 3
 """
 # --- Read input file ---
 if len(sys.argv) < 2:
-    print("Usage: python3 xx.py inputfile.in")
+    print("Usage: python3 xx.py inputfile.yaml")
     sys.exit(1)
 
 input_file = sys.argv[1]
