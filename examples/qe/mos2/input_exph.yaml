@@ -1,0 +1,12 @@
+calc_folder: "./"
+SAVE_dir: "./nscf/mos2.save/SAVE"
+BSE_dir: "./bse/BSE"
+elph_file: "./elph/ndb.elph"
+Dmat_file: "./elph/ndb.Dmats"
+nstates: 10
+lumin: true
+Exph: True
+Temp: 20
+ome_range: [1.0, 2.5, 4000]
+broading: 0.005
+npol: 3

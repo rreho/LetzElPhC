@@ -1,0 +1,6 @@
+calc_folder: "./"
+SAVE_dir: "./nscf/hBN.save/SAVE"
+elph_file: "./elph/ndb.elph"
+Gamma_states: [0,4]
+Q_states: [0,4]
+gauge_invar: true
