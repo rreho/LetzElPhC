@@ -5,20 +5,20 @@ PH=ph.x
 P2Y=p2y
 YAMBO=yambo
 LELPH=../../../../src/lelphc
-
+NCORES=1
 #run scf
 cd scf
-$PW < scf.in | tee scf.out
+mpirun -np $NCORES $PW < scf.in | tee scf.out
 cd ..
 # run phonons
 cd ph
 cp -r ../scf/si.* .
-$PH < ph.in | tee ph.out
+mpirun -np $NCORES $PH < ph.in | tee ph.out
 cd ..
 # run nscf
 cd nscf
 cp -r ../scf/si.* .
-$PW < nscf.in | tee nscf.out
+mpirun -np $NCORES $PW < nscf.in | tee nscf.out
 cd si.save
 ## create save dir
 $P2Y
@@ -32,4 +32,7 @@ cd ..
 ## now compute the elph matrix elements
 cd elph
 $LELPH -F elph.in
+cd ..
+cd bse
+mpirun -np $NCORES $YAMBO -F bse.in -J BSE -C BSE -I ../nscf/hBN.save/SAVE
 cd ..

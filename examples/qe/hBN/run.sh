@@ -5,7 +5,7 @@ PH=ph.x
 P2Y=p2y
 YAMBO=yambo
 LELPH=../../../../src/lelphc
-NCORES=8
+NCORES=1
 #run scf
 cd scf
 mpirun -np $NCORES $PW < scf.in | tee scf.out
@@ -34,5 +34,5 @@ cd elph
 $LELPH -F elph.in
 cd ..
 cd bse
-$YAMBO -F bse.in -J BSE -C BSE -I ../nscf/hBN.save/SAVE
+mpirun -np $NCORES $YAMBO -F bse.in -J BSE -C BSE -I ../nscf/hBN.save/SAVE
 cd ..

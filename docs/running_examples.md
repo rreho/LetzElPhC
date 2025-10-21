@@ -7,28 +7,36 @@ These examples use Quantum ESPRESSO as the DFT backend and some python fortran s
 
 ## Available Examples
 
-### Silicon Bulk Calculation
+- Si: `examples/qe/silicon`
+- hBN:`examples/qe/hBN`
+- MoS2:`examples/qe/mos2`
 
-Located in: `examples/qe/silicon/`
+The DFT ground states calculation can be run all at once with the script `run.sh` available in the relative folders.
+You can run in parallel changing the `NCORES` available in `run.sh`.
+Post-processing plots can be generated with python scripts, available in the `scripts` folder.
 
-This is a simple example computing electron-%phonon coupling for bulk silicon at the Gamma point.
+### hBN Bulk Calculation
+
+
+This is a simple example computing electron-%phonon coupling for bulk hBN.
 
 #### Files in the Example
 
-- `Si.scf.in`: Self-consistent field (SCF) calculation input for pw.x
-- `Si.ph.in`: %Phonon calculation input for ph.x
-- `Si.elph.in`: LetzElPhC configuration file for electron-phonon coupling calculation
-- `%README.md`: Detailed instructions for this example
+- `scf/scf.in`: Self-consistent field (SCF) calculation input for pw.x
+- `nscf/nscf.in`: %Phonon calculation input for ph.x
+- `ph/ph.in`: LetzElPhC configuration file for electron-phonon coupling calculation
 
 #### Running the Silicon Example
 
 **Step 1: Run the DFT Calculation**
 
-First, execute the Quantum ESPRESSO SCF calculation:
+First, execute the Quantum ESPRESSO SCF and nscf calculation:
 
 ```bash
-cd examples/qe/silicon/
-pw.x < Si.scf.in > Si.scf.out
+cd examples/qe/silicon/scf/
+pw.x < scf.in > scf.out
+cd ../nscf/
+pw.x < nscf.in > nscf.out
 ```
 
 This generates the ground state wave functions and density.
@@ -38,17 +46,41 @@ This generates the ground state wave functions and density.
 Next, compute the %phonon frequencies and polarization vectors:
 
 ```bash
-ph.x < Si.ph.in > Si.ph.out
+cd examples/qe/hBN/ph/
+ph.x < ph.in > ph.out
 ```
 
 This creates the dynamical matrix files needed by LetzElPhC.
 
-**Step 3: Run LetzElPhC**
-
-Finally, compute the electron-phonon coupling matrices:
+**STEP 3: Initialize Yambo databases (optional)**
+Initialize the `yambo` database and create the `SAVE` dir:
+This step is needed only if you want to post-process the data to compute excitons-related observables.
 
 ```bash
-../../src/elphC Si.elph.in > Si.elph.out
+cd examples/qe/hBN/nscf/hBN.save/
+p2y
+yambo
+## now compute the elph matrix elements
+cd elph
+$LELPH -F elph.in
+cd ..
+cd bse
+mpirun -np $NCORES $YAMBO -F bse.in -J BSE -C BSE -I ../nscf/hBN.save/SAVE
+cd ..
+
+**Step 4: Run LetzElPhC**
+
+Finally, compute the electron-phonon coupling matrices:
+First run the pre-processing tool of `LetzElPhC` to generate `ph_save` directory in the `ph folder`  
+```bash
+cd ph
+$LELPH -pp --code=qe -F ph.in
+cd ..
+## now compute the elph matrix elements
+cd elph
+$LELPH -F elph.in
+cd examples/qe/hBN/elph/
+../../src/lelphc elph.in > elph.out
 ```
 
 Or with MPI parallelization:
@@ -69,7 +101,7 @@ These files can be processed by tools like EPW or other electron-%phonon post-pr
 
 ## Input File Format
 
-The LetzElPhC configuration file (`Si.elph.in`) contains settings for:
+The LetzElPhC configuration file (`elph.in`) contains settings for:
 
 ### DFT Input
 ```ini
@@ -144,23 +176,15 @@ nqpts = 25            # More q-points
 
 ## Post-processing Results
 
-LetzElPhC outputs NetCDF files containing electron-%phonon data. These can be processed with:
+LetzElPhC outputs NetCDF files containing electron-%phonon data. Those data can be interfaced with the output data of other codes such as `Yambo`.
+As examples, we use **Python** scripts to:
+
+- plot the exicton-phonon matrix elements on the Brillouin Zone;
+- compute phonon-assisted luminescence;
+- compute one- and two- phonon Raman spectra.
 
 ### Python Analysis
 
-```python
-import netCDF4
-import numpy as np
-
-# Load the output file
-nc = netCDF4.Dataset('results/elph_coupling.nc', 'r')
-
-# Access electron-%phonon matrix elements
-g_matrices = nc.variables['g_matrix'][:]
-frequencies = nc.variables['frequencies'][:]
-
-nc.close()
-```
 
 ### Further Calculations
 
@@ -190,29 +214,6 @@ If you encounter issues:
 2. Review the example configuration files
 3. Check the [main documentation](../../docs/main.pdf)
 4. Open an issue on GitLab: https://gitlab.com/lumen-code/LetzElPhC
-
-## Example Workflow Summary
-
-```bash
-# Prepare working directory
-mkdir -p my_calculation
-cd my_calculation
-
-# Copy example files
-cp -r ../examples/qe/silicon/* .
-
-# Build LetzElPhC (if not done)
-cd ../../src
-make clean && make -j4
-cd ../examples/qe/silicon
-
-# Run complete workflow
-pw.x < Si.scf.in > Si.scf.out           # SCF
-ph.x < Si.ph.in > Si.ph.out             # Phonons
-mpirun -np 4 ../../src/elphC Si.elph.in # Electron-phonon
-```
-
-After successful completion, analyze the output NetCDF files with your post-processing tools.
 
 ## Next Steps
 
