@@ -18,3 +18,15 @@ void elph_driver_f2c(const char* input_file, int dft_code, MPI_Fint f_comm)
     MPI_Comm c_comm = MPI_Comm_f2c(f_comm);
     elph_driver(input_file, (enum ELPH_dft_code)dft_code, c_comm);
 }
+
+/*
+ * Callback-enabled bridge: fill_fn_ptr is a Fortran procedure pointer
+ * (passed as a C function pointer via ISO_C_BINDING's c_funloc).
+ */
+void elph_driver_cb_f2c(const char* input_file, int dft_code, MPI_Fint f_comm,
+                         void* fill_fn_ptr)
+{
+    MPI_Comm c_comm = MPI_Comm_f2c(f_comm);
+    elph_driver_cb(input_file, (enum ELPH_dft_code)dft_code, c_comm,
+                   (elph_fill_fn)fill_fn_ptr);
+}

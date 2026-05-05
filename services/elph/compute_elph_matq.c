@@ -24,7 +24,8 @@ void compute_and_write_elphq(struct WFC* wfcs, struct Lattice* lattice,
                              const int varid_elph, const int ncid_dmat,
                              const int varid_dmat, const bool non_loc,
                              const bool kminusq,
-                             const struct ELPH_MPI_Comms* Comm)
+                             const struct ELPH_MPI_Comms* Comm,
+                             elph_fill_fn fill_fn)
 {
     /*
     dVscf -> (nmodes,nmag,Nx,Ny,Nz)
@@ -146,8 +147,15 @@ void compute_and_write_elphq(struct WFC* wfcs, struct Lattice* lattice,
         int nc_err;
         if (Comm->commK_rank == 0)
         {
-            if ((nc_err = nc_put_vara(ncid_elph, varid_elph, startp, countp,
-                                      elph_kq_mn)))
+            if (fill_fn != NULL)
+            {
+                fill_fn((int)startp[0], (int)startp[1], elph_kq_mn,
+                        (int)phonon->nq_BZ, (int)nk_totalBZ, (int)nmodes,
+                        (int)lattice->nspin, (int)nbnds,
+                        (int)lattice->start_band);
+            }
+            else if ((nc_err = nc_put_vara(ncid_elph, varid_elph, startp,
+                                           countp, elph_kq_mn)))
             {
                 ERR(nc_err);
             }
@@ -209,8 +217,15 @@ void compute_and_write_elphq(struct WFC* wfcs, struct Lattice* lattice,
                 startp[0] = qpos_star;
                 startp[1] = idx_Sk;
                 // Write it for Sq and Sk point
-                if ((nc_err = nc_put_vara(ncid_elph, varid_elph, startp, countp,
-                                          gSq_buff)))
+                if (fill_fn != NULL)
+                {
+                    fill_fn((int)startp[0], (int)startp[1], gSq_buff,
+                            (int)phonon->nq_BZ, (int)nk_totalBZ, (int)nmodes,
+                            (int)lattice->nspin, (int)nbnds,
+                            (int)lattice->start_band);
+                }
+                else if ((nc_err = nc_put_vara(ncid_elph, varid_elph, startp,
+                                               countp, gSq_buff)))
                 {
                     ERR(nc_err);
                 }
